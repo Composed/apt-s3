@@ -1,3 +1,5 @@
+#Forced rebuild: 1
+
 packages:
   branch_codenames:
     master: trusty-unstable
@@ -13,7 +15,6 @@ jobs:
     packages:
       - type: debian
         name: apt-transport-s3
-        version: 20150112122026-a7a0b3ddd15025c94b862aa838e11ff7c17fc11a-1
         depends:
           - libcurl4-openssl-dev
           - libapt-pkg-dev
