@@ -21,5 +21,3 @@ jobs:
         repos:
           - composed-public
         target: install
-        conflicts:
-          - "/usr/lib/apt/methods/s3"
